@@ -1,5 +1,5 @@
 # DA
-```{r loadpackages, echo=FALSE, eval=TRUE, warning=FALSE, message=FALSE}
+```{r}
 library(tidyverse)
 library(skimr)
 library(janitor)
@@ -18,5 +18,9 @@ library(ggfortify)
 ```
 This is some test.
 
+```{r data, echo = FALSE, eval = TRUE, warning = FALSE}
+world <- read.csv("Group_13.csv")
+glimpse(world)
+```
 
 
