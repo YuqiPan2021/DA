@@ -1,6 +1,5 @@
 # DA
-
-```{r }
+```{r loadpackages, echo=FALSE, eval=TRUE, warning=FALSE, message=FALSE}
 library(tidyverse)
 library(skimr)
 library(janitor)
