@@ -1,5 +1,6 @@
 # DA
-```{r loadpackages, echo=FALSE, eval=TRUE, warning=FALSE, message=FALSE}
+
+```{r }
 library(tidyverse)
 library(skimr)
 library(janitor)
@@ -19,4 +20,4 @@ library(ggfortify)
 This is some test.
 
 
-This is some text from github.
+
